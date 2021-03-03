@@ -1,0 +1,646 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+/* header nav */
+header{
+    margin-bottom:10px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; 
+}
+.left-side{
+    background-color: #076490;
+    color: white;
+    width: 150px;
+    float: left;
+    height: 50px;
+}
+
+.home-icon{
+    position: absolute;
+    margin: 16px 10px;
+    margin-top: 16px; 
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.seytech-icon:hover{
+color: black;
+}
+.home-icon{
+    position: absolute;
+    vertical-align: middle;
+    line-height: 55px;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+.left-side:hover{
+    background-color: lightgray;
+    color: black;
+}
+.right-side{
+    background-color: #199de5;
+    width: 90%;
+    height: 50px;
+}
+.map-icon,
+.person-icon,
+.message-icon{
+    display:  inline-block; 
+    margin: 0;
+    padding: 16px 10px;
+    color: white;    
+}
+.map-icon:hover,
+.person-icon:hover,
+.message-icon:hover{
+    background-color: white;
+    color: black;
+}
+.left-side p:hover{
+color: black;
+}
+.seytech-logo p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 19px;
+    text-align: center;  
+}
+
+/* Pofile section */
+
+.profile-section{
+    border:solid 2px transparent;
+    /* width: 20%; */
+    box-shadow: 1px 1px 5px;
+   padding-bottom: 10px;
+}
+.profile-section
+.my-profile{
+    text-align: center;
+    font-size: 20px;
+}
+.maratspic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.maratspic img{
+    border-radius: 50%;
+}
+.profile-section hr{
+    width: 70%;
+    color: transparent;
+}
+.profile-text {
+    padding-left: 15px;
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.icons{
+    left: 0%;
+    bottom: 0;
+    width: 20%;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* my groups section*/
+.group-event{
+    box-shadow: 1px 1px 5px;
+    margin-bottom: 19px;
+}
+.my-groups-section a,
+.my-events-section a,
+.my-photos-section a{
+    text-decoration: none;
+}
+.my-groups-section {
+/* box-shadow: 1px 1px 5px; */
+    padding-bottom: 0px;
+    
+}
+.group {
+   border: solid 0px;
+  background-color: #199de5;
+  padding: 17px;
+  padding-left: 4%;
+
+}
+.group .circle-logo{
+    display: inline;
+    width: 1%;
+
+    vertical-align: middle;
+    
+}
+.group h5{
+display: inline;
+color: white;
+margin-left: 10px;
+font-size: 15px;
+
+}
+.group:hover{
+    background-color: rgb(114, 114, 243);
+}
+.my-groups-section p{
+    padding-left: 20px;
+   
+}
+/* my events section */
+.events:hover, .my_photos:hover{
+    background-color: rgb(114, 114, 243);
+}
+.my-events-section{
+    height: 200%;
+    /* box-shadow: 1px 1px 5px; */
+    padding-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.events, .my_photos{
+    border: solid 1px transparent;
+    background-color: #199de5;
+    padding: 17px;
+    padding-left: 4%;
+}
+.events .calendar-logo, 
+.my_photos .my-photo-logo{
+    display: inline;
+    width: 1%;
+    vertical-align: middle;
+}
+.events h5,
+.my_photos h5{
+    display: inline;
+color: white;
+margin-left: 10px;
+font-size: 15px;
+}
+.my-events-section p{
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+
+/* my photos */
+.my-photos-section{
+    margin-top:0;
+    padding:17px 0 0 0;
+    
+}
+
+.cont{   
+      display: block;
+      padding: 5%;
+      background-color: white;
+      margin-left:2px;
+      /* padding-left: 5.5%; */
+      
+}
+.my-pics{
+   display: inline-block;
+   width:45%;
+   padding:  1.5%;
+}
+.my-pics img{
+    width:100%;
+ 
+}
+
+.interests-section{
+    border:solid 2px transparent;
+ 
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+
+}
+.para{
+    margin-left: 5px;
+}
+ul{
+    padding-left: 2px;
+}
+
+.interests-section li{
+   margin-bottom:10px;
+}
+
+ul .blue {
+    background-color: #076490;
+    color: white;
+    padding: 2px;
+    border-style: none;
+    display: inline-block;
+}
+
+ul .skyblue{
+    background-color: #199de5;
+    color: white;
+    padding: 2px;
+    border-style: none;
+    display: inline-block;
+}
+
+ul .gray{
+    background-color: rgb(194, 182, 182);
+    color: black;
+    padding: 2px;
+    border-style: none;
+    display: inline-block;
+}
+
+ul .grayish{
+    background-color: rgb(225, 217, 217);
+    color: black;
+    padding: 2px;
+    border-style: none;
+    display: inline;
+}
+
+ul .light-gray{
+    background-color: rgb(242, 239, 239);
+    color: black;
+    padding: 2px;
+    border-style: none;
+    display: inline-block;
+}
+
+/* Alert msg */
+.alert-msg{
+    border:solid 1px rgb(179, 179, 179);
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 10px;
+    background-color: #dfe5e8;
+    border-radius: 5px;
+    position: relative;
+}
+#hey{
+    color:rgb(61, 61, 61);
+    font-size: large;
+}
+.close .fas{
+    color:black;
+    border: none;
+    font-size: 15px;
+}
+.close{
+    background-color: #becbd2 ;
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 9px 15px;
+}
+.close:hover{
+    background-color: lightgrey;
+
+}
+
+/* Middle Section */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 1px transparent ;
+    align-items: flex-start;
+    margin: 10px;
+    padding-top: 25px;
+    background-color:#f5f7f8 ;
+    margin-top: 40px;
+  
+}
+.left, .right, .middle{
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+.left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.right{
+    width: 15%;
+}
+.middle{
+    width: 60%;
+}
+.posts{
+    flex-direction: column;
+    padding:15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px;
+}
+.posts hr{
+    width: 100%;
+    color: transparent;
+    margin: 25px 0px;
+ 
+}
+.friend-post img{
+    flex-direction: row;
+    border-radius:50% ;
+    width: 60px;
+}
+.friend-post{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 0px;
+    flex-direction: row;
+
+}
+.time{
+    margin-left: auto;
+    color: #113311;
+}
+.friend-post h4{
+   padding: 0px 15px;
+}
+.first-post hr{
+    width: 99%;
+    color: transparent;
+}
+/* post-content */
+.post-content{
+    margin-bottom: 10px;
+}
+
+/* post-pics */
+.two-pic{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-pic img, .right-pic img{
+    width: 100%;  
+    height:100%;  
+}
+.left-pic, .right-pic{
+    width: 49%;
+}
+/* Reactions to post */
+.reactions{
+    display: flex;
+    flex-direction: row;
+}
+.react{
+  color: white;
+  background-color:#40b1e6;
+  padding: 0px 20px;
+  display:inline;
+  border: none;
+  margin: 5px;
+}
+.react:hover{
+  color: black;
+  background-color: lightgrey;
+}
+.react .fas{
+    margin-right: 10px;
+}
+.single-pic img{
+    width:100%;
+}
+#last-post{
+    margin-bottom: 0px;
+}
+#review{
+    margin-bottom: 5px;
+    margin-left:8px;
+
+}
+#review a:visited{
+    color:black;
+}
+
+/* upcoming events section */
+.upcoming-events{
+    border-style: none;
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+}
+
+.upcoming-para{
+    text-align: center;
+}
+
+.react-course{
+    text-align: center;  
+}
+
+.info{
+    background-color: #becbd2;
+    padding: 15px;
+}
+
+.info:hover{
+    background-color: #076490;
+    color: white;
+}
+.my-post{
+    border: solid 1px lightgrey;
+    
+}
+.actual-post{
+    padding: 10px 10px;
+}
+
+/* Friend request section */
+.friend-request{
+   
+    box-shadow: 1px 1px 5px;
+    padding: 20px;
+}
+.friend-request p{
+    text-align: center;
+}
+span{
+margin-left: 50px;
+margin-bottom:20px ;
+}
+
+.top-section img{
+ margin-left: 37px;
+}
+
+.options .button{
+border: solid 1px transparent;
+width: 40%;
+padding: 4px;
+display: inline;
+padding-left: 26px;
+}
+.options .checkmark{
+    background-color: rgba(0, 128, 0, 0.486);
+   
+    
+}
+.options .xmark{
+    background-color: rgba(255, 0, 0, 0.479);
+}
+.button:hover{
+background-color: grey;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    
+}
+ .button img{
+    align-items: center;
+
+}
+.options {
+    margin-top: 20px;
+}
+/* ads */
+.ads{
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+    padding: 20px;
+    
+}
+.bugs{
+    text-align:center;
+    box-shadow: 1px 1px 5px;
+    padding: 40px;
+   
+}
+
+/* Footer */
+.first-footer{
+    border: solid 0px #199de5;
+    color: white;
+    background-color: #199de5;
+    padding: 20px ;
+    font-size: 20px;
+}
+.second-footer{
+border: solid 0px #199de5;
+color: white;
+background-color: #076490;
+padding: 10px;
+}
+.second-footer a{
+    text-decoration: none;
+    color: white;
+}
+.left-section,.right-section{
+    margin-bottom: 19px ;
+}
+
+@media (max-width:768px) {
+    .profile-text p{
+       width: 50%;
+    }
+    .label.logo{
+        width: 0%;
+    }
+    .options .button{
+       padding-left: 10%;
+    }
+    span{
+        margin-left: 0%;
+    }
+    .top-section img{
+        margin-left: 14px;
+        width: 65%;
+    }
+    /* .left-side{
+        width: 15%;
+    } */
+    .right-side{
+        width: 85%;
+    
+    }
+    .bugs img{
+    width: 80%;
+    }
+    .left{
+        width:25%;
+    }
+    .middle{
+        width: 50%;
+    }
+    .right{
+        width: 20%;
+    }
+
+    }
+    @media (max-width:425px){
+        main{
+            flex-direction: column;
+            margin:auto;
+            width:93%;
+            margin-top: 50px;
+        }
+        .left,
+         .right,
+         .middle
+         {
+             width: 100%;
+         }
+       
+         .alert-msg{
+             display: none;
+         }
+         .options{
+             display: flex;
+             flex-direction: column;
+             width: 100%;
+         }
+         .options .button{
+        width:88%;
+        margin-bottom: 20px;
+         }
+         .xmark img, .checkmark img,
+         .top-section span{
+            margin-left: 40%;
+         }
+         .top-section img{
+             margin-left: 17%;
+         }
+         .friend-request{
+             padding: 10px;
+         }
+        .bugs img{
+            width: 40%;
+        }
+        .bugs{
+            padding: 20px 35%;
+          
+        }
+        .my-pics{
+            display: block;
+            width:100%;
+            padding:  3.5%;
+            
+         }
+         .cont{
+             margin: auto;
+            padding-left: 15px;
+            padding-right: 35px; 
+         }
+         .map-icon, .person-icon, .message-icon{
+             display: none;
+         }
+
+    }
